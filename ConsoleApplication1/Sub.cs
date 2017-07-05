@@ -13,5 +13,11 @@ namespace ConsoleApplication1
         public int PlayerUp { get; }
         public int PlayerSub { get; }
 
+        public Sub( int min, int playerup, int playersub)
+        {
+            Min = min;
+            PlayerUp = playerup;
+            PlayerSub = playersub;
+        }
     }
 }
