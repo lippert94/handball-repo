@@ -6,17 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    class Display
     {
-        static void Main(string[] args)
+        public static void  Player(string player,int time)
         {
-<<<<<<< HEAD
-
-
-            int g = 12;
-=======
-            
->>>>>>> 2633d3e6f018d5016d33819d505e341222eb6fd8
+            int _time = 0;
         }
     }
 }
