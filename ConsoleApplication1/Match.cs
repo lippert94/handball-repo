@@ -21,7 +21,7 @@ namespace ConsoleApplication1
 
 
         private void isPlayerup(int time)
-        { int subHelp = 0;
+        {
             foreach (Sub subs in _subs)
             {
                 if (time ==subs.Min)
@@ -37,6 +37,8 @@ namespace ConsoleApplication1
         {
             foreach (Players player in _players)
             {
+                isPlayerup(time);
+
                 if (player.Status)
                 {
                     player.Minutes++;
@@ -49,6 +51,7 @@ namespace ConsoleApplication1
             for (int i = 0; i < 60; i++)
             {
                 playerAllTime(i);
+               
             }
         }
     }
