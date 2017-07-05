@@ -8,9 +8,18 @@ namespace ConsoleApplication1
 {
     class Display
     {
-        public static void  Player(string player,int time)
+        public static void  DisplayPlayers (Players[] players)
         {
-            int _time = 0;
+
+            Console.WriteLine("Játékos\t\tIdő");
+            foreach (var player in players)
+            {
+
+            }
+            
+
         }
+        
     }
+
 }

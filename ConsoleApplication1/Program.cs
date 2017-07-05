@@ -10,13 +10,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
+            Players[] players = new Players[3];
 
-
-            int g = 12;
-=======
-            
->>>>>>> 2633d3e6f018d5016d33819d505e341222eb6fd8
         }
     }
 }
