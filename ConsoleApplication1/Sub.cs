@@ -9,9 +9,9 @@ namespace ConsoleApplication1
     class Sub
     {
 
-        public int Min { get; }
-        public int PlayerUp { get; }
-        public int PlayerSub { get; }
+        public int Min { get; set; }
+        public int PlayerUp { get; set; }
+        public int PlayerDown { get; set; }
 
     }
 }
