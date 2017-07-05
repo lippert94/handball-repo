@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    class Sub
     {
-        static void Main(string[] args)
-        {
-            
-        }
+
+        public int Min { get; }
+        public int PlayerUp { get; }
+        public int PlayerSub { get; }
+
     }
 }
