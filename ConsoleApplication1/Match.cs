@@ -26,11 +26,8 @@ namespace ConsoleApplication1
             {
                 if (time ==subs.Min)
                 {
-                    _players[subs.PlayerUp].Status=false;
-                    subHelp = subs.PlayerDown;
-                    subs.PlayerDown = subs.PlayerUp;
-                    subs.PlayerUp = subHelp;
-                    _players[subs.PlayerUp].Status = true;
+                    _players[subs.PlayerUp-1].Status=false;
+                    _players[subs.PlayerDown-1].Status = true;
 
                 }
             }
